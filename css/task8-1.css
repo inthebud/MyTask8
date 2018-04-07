@@ -1,8 +1,9 @@
 html{
 	font-size: 62.5%;
 }
-*{
-	margin:0;padding:0;
+body{
+	margin:0;
+	background-color: #fafafa;
 }
 
 .header1{
@@ -87,13 +88,14 @@ html{
 }
 
 main{
-	background-color: #fafafa;
 	padding: 13rem 10% 0 10%;
 }
 
 .row1{
-	display: flex;
-	justify-content: space-between;
+	
+}
+.row1>div{
+	margin: auto;
 }
 
 .row1 strong{
@@ -106,24 +108,36 @@ main{
 .row1 p{
 	font-size: 1.6rem;
 	color: #a2a2a2;
+	margin: auto;
 }
 
-.row1-1{
+.row1-1-text2,.row1-2-text2{
 	width: 18.0rem;
+}
+
+.row1-3-text2{
+	width: 21.0rem;
+}
+.row1-1{
+	<!--width: 18.0rem;-->
+	margin: auto;
 }
 
 .row1-2{
-	width: 18.0rem;
-	text-align: center;
+	<!--width: 18.0rem;-->
 }
 
 .row1-3{
-	width: 21.0rem;
+	<!--width: 21.0rem;-->
 }
 
 .row1-4{
-	width: 15.0rem;
+	<!--width: 15.0rem;-->
 	margin-top: 5.6rem;
+}
+.row1-4-inside{
+	width: 14rem;
+	margin: 5.6rem auto 0 auto;
 }
 
 .row1-icon{
@@ -179,6 +193,7 @@ main{
 	color: #999999;
 }
 
+
 .step-icon{
 	display: inline-block;
 	width: 5.6rem;
@@ -209,6 +224,7 @@ main{
 	height: 2.5rem;
 	background-image: url(../images/xbt.png);
 	background-position: 0 54%;
+	margin: 0 0.5rem;
 }
 
 .row3-title{
@@ -221,12 +237,13 @@ main{
 
 .students{
 	margin-top:4rem; 
-	display: flex;
-	justify-content: space-between;
 }
 
 .std{
-	width: 22rem;
+}
+
+.std-inside{
+	width: 90%;
 	height: 30rem;
 	background-color: white;
 	box-shadow: 0rem 0.2rem 0.5rem 0rem #cccccc;
