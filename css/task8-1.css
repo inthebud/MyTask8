@@ -111,29 +111,29 @@ main{
 	margin: auto;
 }
 
-.row1-1-text2,.row1-2-text2{
+.row1-1-text2,.row1-2-text2,.row1-3-text2{
 	width: 18.0rem;
 }
 
-.row1-3-text2{
-	width: 21.0rem;
-}
 .row1-1{
-	<!--width: 18.0rem;-->
 	margin: auto;
 }
 
 .row1-2{
-	<!--width: 18.0rem;-->
 }
 
 .row1-3{
-	<!--width: 21.0rem;-->
 }
 
 .row1-4{
-	<!--width: 15.0rem;-->
-	margin-top: 5.6rem;
+	border-left: 1px dashed #999999;
+}
+@media screen and (max-width:992px){
+	.row1-4{
+		border-left: none;
+		text-align: center;
+	}
+	
 }
 .row1-4-inside{
 	width: 14rem;
@@ -186,16 +186,17 @@ main{
 
 .process-line1,.process-line2{
 	margin-bottom: 8.3rem;
-	display: flex;
-	justify-content: space-between;	
-	align-items: center;
 	font-size: 1.3rem;
 	color: #999999;
 }
 
+.step{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
 .step-icon{
-	display: inline-block;
 	width: 5.6rem;
 	height: 5.6rem;
 	line-height: 5.6rem;
@@ -209,22 +210,16 @@ main{
 	font-weight: 400;
 }
 
-.step-text1,.step-text2{
-	width: 12.5rem;
-}
-.step-text3{
-	width: 11.6rem;
-}
-.step-text4{
-	width: 10.4rem;
-}
-
 .arrows{
 	width: 2.5rem;
 	height: 2.5rem;
 	background-image: url(../images/xbt.png);
 	background-position: 0 54%;
 	margin: 0 0.5rem;
+}
+
+#last-arw{
+	display: hidden;
 }
 
 .row3-title{
